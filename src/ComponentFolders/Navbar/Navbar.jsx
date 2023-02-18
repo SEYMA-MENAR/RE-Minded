@@ -87,7 +87,7 @@ export default function NavBar({ handleSignout }) {
                 </Link>
                 <Link to="About">
                   <a className=" hover:text-indigo-200 p-2" href="Home">
-                    {t('navbar.about')}
+                    <About />
                   </a>
                 </Link>
                 <Link to="contactus">
@@ -162,10 +162,7 @@ export default function NavBar({ handleSignout }) {
                   />
                 </button>
                 {showDropdown && (
-                  <ul
-                    className="font-poppins absolute right-0  w-48 py-2 mt-1 rounded-md shadow-2xl  bg-white"
-                    style={{ backgroundColor: 'transparent' }}
-                  >
+                  <ul className="font-poppins absolute right-0  w-48 py-2 mt-1 rounded-md shadow-2xl  bg-[#c2e5eb]">
                     <li>
                       <Link
                         to="profilepage"

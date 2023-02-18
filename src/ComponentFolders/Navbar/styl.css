@@ -3,6 +3,7 @@
     position: relative;
   }
   .dropdown-content {
+    background-color: #c2e5eb;
     display: none;
     position: absolute;
     width: 100%;
